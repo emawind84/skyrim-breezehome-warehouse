@@ -15,7 +15,7 @@ EndEvent
 Function Maintenance()
     If Version != "1.0"
         Version = "1.0"
-        Debug.Notification("DSC Warehouse Light v" + Version)
+        Debug.Notification("DSC Warehouse Custom Light v" + Version)
         ; Update Code
     EndIf
     ; Other maintenance code that only needs to run once per save load
