@@ -1,4 +1,5 @@
 Scriptname DSC02_CustomLightQuestTrigger extends ReferenceAlias
+{Trigger for CustomLightQuest}
 
 DSC02_WarehouseLightQuest Property QuestScript Auto
 Actor Property PlayerREF Auto

@@ -1,15 +1,16 @@
 Scriptname DSC02_MainQuest extends Quest  
+{Maintenance quest for Warehouse DSC02}
 
 String Version
 
 Event OnInit()
     Maintenance() ; OnPlayerLoadGame will not fire the first time
-    ;RegisterForSingleUpdate(2)
+    RegisterForSingleUpdate(2)
 EndEvent
 
 Event OnUpdate()
     Log("OnUpdate fired")
-    RegisterForSingleUpdate(2)
+    ;RegisterForSingleUpdate(2)
 EndEvent
 
 Function Maintenance()

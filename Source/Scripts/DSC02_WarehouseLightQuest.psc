@@ -1,4 +1,5 @@
 Scriptname DSC02_WarehouseLightQuest extends Quest  
+{Warehouse Custom Lights main quest script}
 
 Event OnInit()
     RegisterForSingleUpdate(2)

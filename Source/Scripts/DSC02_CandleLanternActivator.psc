@@ -1,13 +1,10 @@
 Scriptname DSC02_CandleLanternActivator extends ReferenceAlias
+{Enable/Disable light source with activators script}
 
-ReferenceAlias Property SourceLight Auto
 ReferenceAlias Property ActivatorAlias Auto
-ObjectReference[] Property OtherObjList Auto
 
 Event OnActivate(ObjectReference akActionRef)
     If akActionRef == Game.GetPlayer() ; This condition ensures that only the player will trigger this code
-        SourceLight.GetRef() && ToggleObj(SourceLight.GetRef())
-        OtherObjList && ToggleListObj(OtherObjList)
         self.GetRef().Disable()
         ActivatorAlias.GetRef().Enable()
     EndIf

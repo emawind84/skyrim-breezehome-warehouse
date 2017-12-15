@@ -2,6 +2,16 @@
 ;NEXT FRAGMENT INDEX 5
 Scriptname QF_DSC02_LightsUpQuest_04003341 Extends Quest Hidden
 
+;BEGIN ALIAS PROPERTY LightActivator05
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_LightActivator05 Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY LightActivator04
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_LightActivator04 Auto
+;END ALIAS PROPERTY
+
 ;BEGIN ALIAS PROPERTY LightActivator01
 ;ALIAS PROPERTY TYPE ReferenceAlias
 ReferenceAlias Property Alias_LightActivator01 Auto
@@ -15,16 +25,6 @@ ReferenceAlias Property Alias_LightActivator02 Auto
 ;BEGIN ALIAS PROPERTY LightActivator03
 ;ALIAS PROPERTY TYPE ReferenceAlias
 ReferenceAlias Property Alias_LightActivator03 Auto
-;END ALIAS PROPERTY
-
-;BEGIN ALIAS PROPERTY LightActivator05
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_LightActivator05 Auto
-;END ALIAS PROPERTY
-
-;BEGIN ALIAS PROPERTY LightActivator04
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_LightActivator04 Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN FRAGMENT Fragment_1
